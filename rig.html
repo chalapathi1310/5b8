@@ -1,0 +1,43 @@
+<html>
+<head>
+<style>
+body{
+background-color:pink;
+color:blue;
+}
+h1{
+color:blue;
+}
+h2{
+color:pink;
+}
+</style>
+</head>
+function validateForm() {
+  let x = document.forms["myForm"]["fname"].value;
+  if (x == "") {
+    alert("Name must be filled out");
+    return false;
+  }
+}
+<body>
+<h1>registration form</h1>
+<form>
+first name<br>
+<input type="text" name="first name"></br>
+second name<br>
+<input type="text" name="second name"></br>
+email<br>
+<input type="text"name="email"></br>
+password<br>
+<input type="text" name="password"></br>
+mobile no<br>
+<input type="text" name="mobile no"></br>
+gender<br>
+<input type="text" name="gender"></br>
+<input type="submit" name="submit">
+</form>
+</body>
+</html>
+
+
